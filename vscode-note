@@ -1,0 +1,13 @@
+Docker-compose
+
+docker compote existe pour nous eviter des tonnes de taches répétitives avec le CLI dockerstart up multiple container at the same time
+
+bien plus rapide d'utiliser docker compose
+c'est du yaml
+
+service c'est un type de container . IMPORTANT à retenir
+
+en créant des container via docker-compose, tout les container peuvent automatiquement communiquer entre eux
+meme pas besoin de préciser ne port entre les deux
+
+dans le code, il faut quand meme préciser au redis client la location du redis serveur
