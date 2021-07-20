@@ -11,3 +11,19 @@ en créant des container via docker-compose, tout les container peuvent automati
 meme pas besoin de préciser ne port entre les deux
 
 dans le code, il faut quand meme préciser au redis client la location du redis serveur
+
+commandes : 
+docker run  => docker-compose-up
+
+docker build .   +   docker run   => docker-compose up --build
+
+docker stop => docker-compose down  (stop tous les conteneurs d'un coup)
+
+règles de restart d'un conteneur : 
+restart policies :
+"no"
+always
+on-failure
+unless-stopper => always restart sauf quans c'est nous qui stoppons mannuellement
+
+d
